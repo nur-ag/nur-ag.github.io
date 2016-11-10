@@ -1,7 +1,7 @@
 # Site wide configuration
 title: Unzensored
 description: 'Exagerations and short words'
-url: 
+url: http://unzenso.red
 date_format: '%d %B %Y'
 fort_awesome_icon: 'cog fa-spin'
 

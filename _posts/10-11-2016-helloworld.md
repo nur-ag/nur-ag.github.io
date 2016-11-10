@@ -1,6 +1,7 @@
 ---
 title: Hello world
 layout: post
+logo: home
 ---
 
 Just a simple entry to make sure everything works.
