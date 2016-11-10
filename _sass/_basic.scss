@@ -20,7 +20,7 @@ body {
 
 @media (min-width: 30rem) {
   body {
-    margin-top: 5rem;
+    margin-top: 0.25rem;
   }
 }
 
@@ -37,7 +37,6 @@ body a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Montserrat, sans-serif;
   margin: 0 0 0.5rem -0.1rem /* align left edge */;
   line-height: 1;
   color: darken($base-gray, 13.5%);
@@ -62,9 +61,10 @@ h1 a {
 
 div.site-title {
   text-align: center;
-  margin-bottom: 3em;
+  margin-bottom: 0.5em;
+  font-family: Open Sans Condensed;
   a, a:hover, a:focus, a:active {
-    font-size: 3em;
+    font-size: 7em;
     color: $black;
     text-transform: uppercase;
     text-decoration: none;
@@ -172,9 +172,13 @@ pre > code {
 }
 
 .container {
-  max-width: 35rem;
+  max-width: 40rem;
   margin: 0 auto;
   padding: 0 1rem;
+  outline: 0px;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.5), 0 12px 32px 0 rgba(0, 0, 0, 0.25);
+  padding-bottom: 24px;
+  padding-top: 8px;
 }
 
 div.post-title {

@@ -1,8 +1,8 @@
 # Site wide configuration
 title: Unzensored
-description: 'A simple content-focused Jekyll theme'
+description: 'Exagerations and short words'
 url: http://www.unzenso.red/
-date_format: '%d/%M/%Y'
+date_format: '%d %B %Y'
 fort_awesome_icon: 'cog fa-spin'
 
 # Owner configuration
@@ -16,7 +16,7 @@ owner:
     linkedin: nuralvarez
     facebook:
     google_plus:
-    youtube:
+    youtube: 
 
 # Post sharing icons
 sharing:
@@ -31,18 +31,17 @@ disqus_shortname: 'unzensored'
 
 # Jekyll configuration
 permalink: /:year/:month/:day/:title/
-paginate: 4
+paginate: 5
 
 # Markdown
 highlighter: rouge
 
 # Enable when using kramdown (you will need to use ~~~ instead of ```)
-# kramdown:
-#   auto_ids: true
-#   footnote_nr: 1
-#   entity_output: as_char
-#   toc_levels: 1..6
-#   use_coderay: false
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
 
 # Gems
 gems: ['jekyll-paginate']
