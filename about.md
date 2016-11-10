@@ -1,15 +1,19 @@
 ---
 layout: page
-title: About
+title: About Trio
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+This [Jekyll](http://jekyllrb.com/) theme was crafted with <3 by [Ankur Gupta](https://github.com/ankur-gupta) using inspiration from these sources:
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+* [Solo](http://chibicode.github.io/solo/) theme by [Shu Uesugi](https://github.com/chibicode)
+* [Lanyon](http://lanyon.getpoole.com/) & [Hyde](http://hyde.getpoole.com/)themes by [Mark Otto](https://github.com/mdo).
+* [Pixyll](http://pixyll.com/) theme by [John Otander](https://github.com/johnotander)
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Checkout the [Github repository](https://github.com/ankur-gupta/trio) to download it, request a feature, report a bug, or contribute. It's free, and open source ([MIT](http://opensource.org/licenses/MIT)).
+
+Many thanks to the following:
+
+* [Jekyll](http://jekyllrb.com)
+* [Bourbon](http://bourbon.io/)
+* [Font Awesome](http://fortawesome.github.io/Font-Awesome)
