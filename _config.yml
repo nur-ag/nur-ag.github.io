@@ -34,12 +34,7 @@ permalink: /:year/:month/:day/:title/
 paginate: 4
 
 # Markdown
-markdown: redcarpet
 highlighter: rouge
-
-# Enable when using redcarpet
-redcarpet:
-  extensions: ['smart', 'tables', 'with_toc_data', 'footnotes']
 
 # Enable when using kramdown (you will need to use ~~~ instead of ```)
 # kramdown:
