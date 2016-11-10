@@ -2,7 +2,8 @@
 title: Hello world
 layout: post
 category: junk
-logo: home
+tags: [blog, webdev, testing]
+logo: globe
 ---
 
 Just a simple entry to make sure everything works.

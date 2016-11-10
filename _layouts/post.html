@@ -15,6 +15,7 @@ layout: default
     <div class="title">
         <h2>{{ page.title }}</h2>
         {% if page.date %}
+        <div>
         <span>
             <time datetime="{{ page.date | date_to_xmlschema }}">
                 {{ page.date | date: site.date_format }}
@@ -25,8 +26,17 @@ layout: default
                         &middot;
                         Updated {{ page.update_date | date: site.date_format }}
                     {% endif %}
+                    &middot;
+                    Filed to <a href="{{ site.url }}/categories/#{{page.category}}">{{ page.category }}</a>
                 {% endif %}
             </time>
+        </span>
+        <br>
+        <span>
+            Tagged as: 
+            {% for tag in page.tags %}
+                <a href="{{ site.url }}/tags/#{{ tag }}">#{{ tag }}</a>
+            {% endfor %}
         </span>
         {% endif %}
     </div>
