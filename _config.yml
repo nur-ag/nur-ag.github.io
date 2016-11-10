@@ -1,7 +1,7 @@
 # Site wide configuration
 title: Unzensored
 description: 'Exagerations and short words'
-url: 'nur-ag.github.io'
+url: https://nur-ag.github.io/
 date_format: '%d %B %Y'
 fort_awesome_icon: 'cog fa-spin'
 
