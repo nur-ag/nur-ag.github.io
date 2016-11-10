@@ -1,7 +1,7 @@
 # Site wide configuration
 title: Unzensored
 description: 'Exagerations and short words'
-url: nur-ag.github.io
+url: 'nur-ag.github.io'
 date_format: '%d %B %Y'
 fort_awesome_icon: 'cog fa-spin'
 
@@ -31,7 +31,7 @@ disqus_shortname: 'unzensored'
 
 # Jekyll configuration
 permalink: /:year/:month/:day/:title/
-paginate: 5
+paginate: 4
 
 # Markdown
 highlighter: rouge
