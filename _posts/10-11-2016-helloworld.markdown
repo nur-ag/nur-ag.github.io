@@ -1,6 +1,7 @@
 ---
 title: Hello world
 layout: post
+category: junk
 logo: home
 ---
 
