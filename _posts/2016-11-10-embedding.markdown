@@ -15,7 +15,7 @@ This cube rotates in a software rasterizer I wrote in Scala.js. It's not very fa
 
 Disregard the following lists because you're busy:
 
-* Numbers like $\frac{n}{2} + e^{(sin(n))}$
+* Once upon a time Zeno went to $\sum\limits_{i=0}^{\infty} \frac{1}{2^i}$ and then it was twice upon a time
 * Spanish is nice because life's a dream
 * I can't use long words
 

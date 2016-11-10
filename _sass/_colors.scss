@@ -10,6 +10,7 @@ $table-alt-row-color: #f9f9f9;
 /* Color Themes */
 /* Original from Solo (http://clrs.cc) $default: #0074d9; */
 $default: #477DCA; /* Baby Blue */
+$base-07: #801018; /* Pure red */
 $base-08: #ac4142; /* Red */
 $base-09: #d28445; /* Orange */
 $base-0a: #f4bf75; /* Yellow */
@@ -20,4 +21,4 @@ $base-0e: #aa759f; /* Magenta */
 $base-0f: #8f5536; /* Brown */
 
 /* Change this variable if you want to change the color theme */
-$theme-color: $base-08;
+$theme-color: $base-07;
