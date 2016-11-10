@@ -64,7 +64,13 @@ div.site-title {
   margin-bottom: 0.5em;
   font-family: Open Sans Condensed;
   a, a:hover, a:focus, a:active {
-    font-size: 7em;
+    @media (min-width: 30rem) {
+      font-size: 7em;
+    }
+    @media (min-width: 20rem) and (max-width: 29rem) {
+      font-size: 5em;
+    }
+    font-size: 4em;
     color: $black;
     text-transform: uppercase;
     text-decoration: none;
