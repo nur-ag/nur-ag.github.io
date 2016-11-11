@@ -25,16 +25,9 @@ html, body {
   display: block;
 }
 
-.stickyfooter, .wrapper-for-content-outside-of-footer:after {
-  height: 17em;
-  @include media($large-screen) {
-    height: 4em;
-  }
-}
-
 .stickyfooter {
   $base-spacing: 1.5em !default;
-  $footer-background: lighten($theme-color, 15%);
+  $footer-background: lighten($theme-color, 5%);
   $footer-hover-color: $white;
   $footer-text-color: transparentize($footer-hover-color, 0.6);
   $footer-link-color: transparentize($footer-hover-color, 0.3);

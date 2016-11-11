@@ -65,16 +65,16 @@ div.site-title {
   font-family: Open Sans Condensed;
   a, a:hover, a:focus, a:active {
     font-size: 3.5em;
-    @media (min-width: 30rem) {
+    @media (min-width: 721px) {
       font-size: 7em;
     }
-    @media (min-width: 27rem) and (max-width: 30rem) {
+    @media (min-width: 641px) and (max-width: 720px) {
       font-size: 6em;
     }
-    @media (min-width: 24rem) and (max-width: 27rem) {
+    @media (min-width: 401px) and (max-width: 640px) {
       font-size: 5em;
     }
-    @media (min-width: 20rem) and (max-width: 24rem) {
+    @media (min-width: 351px) and (max-width: 400px) {
       font-size: 4em;
     }
     color: $black;
