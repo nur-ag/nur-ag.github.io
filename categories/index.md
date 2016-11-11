@@ -13,7 +13,7 @@ Article categories in no particular order. They should be pretty self explanator
   <ul class="tag-box inline">
   {% for item in (0..site.categories.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ categories[item] | strip_newlines }}{% endcapture %}
-    <li><a href="#{{ this_word | cgi_escape }}">{{ this_word }} <span>{{ site.categories[this_word].size }}</span></a></li>
+    <li><a href="#{{ this_word | cgi_escape }}">{{ this_word }}<span>{{ site.categories[this_word].size }}</span></a></li>
   {% endunless %}{% endfor %}
   </ul>
  
