@@ -20,12 +20,7 @@
     <meta name="author" content="{{ owner.name }}">
     <meta name="description" content="{% if page.summary %}{{ page.summary | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}">
 
-    <meta name="keywords" content="unzensored, uncensored, blog, programming, {{ owner.name }},
-    {% for item in (0..site.categories.size) %}{% unless forloop.last %}
-      {% capture this_word %}{{ categories[item] | strip_newlines }}{% endcapture %}
-      {{ this_word }},
-    {% endunless %}{% endfor %}
-    ">
+    <meta name="keywords" content="unzensored, uncensored, blog, programming, computer science, science, computer, graphics, gpus, logic, math, games, videogames, artificial, intelligence, ai, artificial intelligence, mathematics, thought experiment, thinking, philosophy, persuasion, leadership, marketing, art, history, aesthetics, creativity, beauty, poetry, painting, analysis, fun, funny, enjoyable, internet, privacy, security, tinfoil, encryption, social, social networking, networking, network, networks, iot, drones, drone, robot, biology, neuroscience, psychology, cognitive, cognition, bias, biases, words, word, semantics, syntax, parsing, token, meaning, meaningless, emotion, emotions, feel, feeling, music, solitude, lonely, blue, impostor, politics, reason, reasoning, evolution, darwin, darwinian, silly, dumb, stupid">
 
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary" />
