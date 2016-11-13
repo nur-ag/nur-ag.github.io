@@ -19,7 +19,13 @@
     <!-- Meta information for search engines -->
     <meta name="author" content="{{ owner.name }}">
     <meta name="description" content="{% if page.summary %}{{ page.summary | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}">
-    <meta name="keywords" content="unzensored, uncensored, blog, programming, {{ owner.name }}, {{ site.categories | join: ', ' }}">
+
+    <meta name="keywords" content="unzensored, uncensored, blog, programming, {{ owner.name }},
+    {% for item in (0..site.categories.size) %}{% unless forloop.last %}
+      {% capture this_word %}{{ categories[item] | strip_newlines }}{% endcapture %}
+      {{ this_word }},
+    {% endunless %}{% endfor %}
+    ">
 
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary" />
