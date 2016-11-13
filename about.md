@@ -14,6 +14,6 @@ Content itself might vary to include:
 * Nonsense, but of the not fun kind
 * Contempt for the English language
 
-Since I lack the amount of self awareness needed to say who I am well enough, you can imagine me in whatever way you want. I think it might be funnier that way. I would ask your imagination to give me a few attributes you enjoy, just so you can more easily enjoy what I do.
+I lack the amount of self awareness needed to say who I am, so you can imagine me as you'd wish. It might be funnier that way. I would ask you to give me a few attributes you like, just so you can more easily enjoy what I do.
 
 The blog runs on [Jekyll](http://jekyllrb.com/) with a variation of the Trio theme by [Ankur Gupta](https://github.com/ankur-gupta). 
