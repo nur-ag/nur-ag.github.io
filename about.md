@@ -1,19 +1,11 @@
 ---
 layout: page
-title: About Unzensored
+title: Whatabouts?
 permalink: /about/
 ---
 
-This page was created as a personal blog to ramble. I usually do it in different languages, both unnatural and otherwise. Since I enjoy pushing boundaries, some exagerations might appear here and there. I will try to mostly use short words, which are the ones I enjoy the most.
+I made this site to have a space to ramble. I am not sure what it will contain over time, since I have odd interests that splurge and intersect from time to time. 
 
-Content itself might vary to include:
-
-* Words in Spanish
-* Thoughts about things that one can think about
-* Stuff about computer graphics
-* Nonsense, but of the not fun kind
-* Contempt for the English language
-
-I'm not good with descriptions so you can imagine me as you'd wish. It might be funnier that way. I will ask you to give me a few attributes you like, just to get some old halo effect for cheap.
+Letting the stuff flow is the way this whole site will roll. I might use small and big words, spanish, english and computer words and even made up words. That should be descriptive enough.
 
 The blog runs on [Jekyll](http://jekyllrb.com/) with a variation of the Trio theme by [Ankur Gupta](https://github.com/ankur-gupta). 

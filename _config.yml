@@ -1,7 +1,7 @@
 # Site wide configuration
-title: Unzensored
+title: Nur.wtf
 description: 'Exagerations and short words'
-url: http://unzenso.red
+url: http://nur.wtf
 date_format: '%d %B %Y'
 fort_awesome_icon: 'eject'
 
@@ -10,7 +10,7 @@ fort_awesome_icon: 'eject'
 # (leave the rest blank to disable the corresponding sharing button)
 owner:
     name: Nur Álvarez González
-    email: nur@unzenso.red
+    email: msg@nur.wtf
     github: nur-ag
     twitter: subnurmality
     linkedin: nuralvarez
@@ -27,7 +27,7 @@ sharing:
     reddit: true
 
 # Disqus comments configuration (leave blank to disable comments)
-disqus_shortname: 'unzensored'
+disqus_shortname: 'nurwtf'
 
 # Jekyll configuration
 permalink: /:year/:month/:day/:title/

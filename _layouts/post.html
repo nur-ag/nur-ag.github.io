@@ -48,9 +48,41 @@ layout: default
 
 {{ content }}
 
+<hr/>
+<div class="nav">
+    {% if page.previous.url %}
+    <a href="{{page.previous.url}}" alt="Older Post">
+        <span class="fa-stack fa-2x">
+            <i class="fa fa-circle-thin fa-stack-2x"></i>
+            <i class="fa fa-angle-double-left fa-stack-1x"></i>
+        </span>
+    </a>
+    {% else %}
+    <span class="disabled">
+        <span class="fa-stack fa-2x">
+            <i class="fa fa-circle-thin fa-stack-2x"></i>
+            <i class="fa fa-angle-double-left fa-stack-1x"></i>
+        </span>
+    </span>
+    {% endif %}
+    {% if page.next.url %}
+    <a href="{{page.next.url}}" alt="Newer Post">
+        <span class="fa-stack fa-2x">
+            <i class="fa fa-circle-thin fa-stack-2x"></i>
+            <i class="fa fa-angle-double-right fa-stack-1x"></i>
+        </span>
+    </a>
+    {% else %}
+    <span class="disabled">
+        <span class="fa-stack fa-2x">
+            <i class="fa fa-circle-thin fa-stack-2x"></i>
+            <i class="fa fa-angle-double-right fa-stack-1x"></i>
+        </span>
+    </span>
+    {% endif %}
+</div>
+<hr/>
 <div class="sharing">
-    <br/>
-    <br/>
 <!-- Make an animated slide out drawer later -->
     <ul class="inline">
         <li><i class="fa fa-share-square-o fa-2x"></i></li>
@@ -85,9 +117,8 @@ layout: default
         {% endif %}
     </ul>
 </div>
+<hr/>
 
-<br/>
-<br/>
 {% if site.disqus_shortname %}
 <div id="disqus_thread"></div>
 <!-- Add Disqus comments (not comment count) -->

@@ -14,7 +14,6 @@ html {
 }
 
 body {
-  margin: 2rem 0 5rem;
   color: $base-gray;
 }
 
@@ -254,4 +253,16 @@ div.post-title {
   vertical-align: super;
   font-size: 10px;
   font-size: 0.625rem;
+}
+
+.nav {
+  text-align: center;
+}
+
+.nav > a:hover, a:focus {
+  text-decoration: none;
+}
+
+.nav .disabled {
+  color: #E1E1E1;
 }

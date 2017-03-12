@@ -1,8 +1,8 @@
 ---
 title: Hello world
 layout: post
-category: junk
-tags: [blog, webdev, testing]
+category: misc
+tags: [blog, testing]
 logo: globe
 ---
 
@@ -45,6 +45,3 @@ Thanks! For my last trick I shall show an image down below:
 <center>
     Everything should be fine past this point.
 </center>
-
------------
-
