@@ -30,6 +30,8 @@
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
     <meta name="twitter:description" content="{% if page.summary %}{{ page.summary | strip_html }}{% elsif page.excerpt %}{{ page.excerpt  | strip_html }}{% else %}{{ site.description | strip_html }}{% endif %}" />
     <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
+    <meta name="twitter:image" content="{{ site.url }}/apple-touch-icon.png">
+
 
     <!-- Open Graph -->
     <meta property="og:locale" content="en_US" />
