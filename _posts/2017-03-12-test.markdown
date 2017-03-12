@@ -1,0 +1,12 @@
+---
+layout: post
+title: Just a small little test
+date: 2017-03-12
+summary: Just looking back at the funny farm
+logo: certificate
+---
+
+Test-a-roo should work-a-roo.
+
+
+
