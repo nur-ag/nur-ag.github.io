@@ -9,15 +9,11 @@ summary: "Test: 3, 2, 1... All systems active!"
 
 Just a simple entry to make sure everything works.
 
-This cube rotates in a software rasterizer I wrote in Scala.js. It's not very fast, probably. Turn around to feel the effect of not clipping the triangles:
-
---------
-
-<iframe style="margin-left: auto;margin-right: auto; display:block; text-align:center; width: 80%; min-height: 360px; border: 0px;" src="http://dropthevertz.co.nf/raster"></iframe>
+[Here](http://dropthevertz.co.nf/raster) you can see software rasterizer I wrote in Scala.js. It's not very fast, probably. I didn't clip the triangles so it lags (badly!) when they are behind your eyes.
 
 ---------
 
-Disregard the following lists because you're busy:
+Disregard the following lists simply because you're busy:
 
 * Once upon a time Zeno went to $\sum\limits_{i=0}^{\infty} \frac{1}{2^i}$ and then it was twice upon a time
 * Spanish is nice because life's a dream
