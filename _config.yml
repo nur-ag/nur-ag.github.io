@@ -1,7 +1,7 @@
 # Site wide configuration
 title: Nur.wtf
 description: 'Exagerations and short words'
-url: http://nur.wtf
+url: nur.wtf
 date_format: '%d %B %Y'
 fort_awesome_icon: 'eject'
 
