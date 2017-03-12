@@ -4,6 +4,7 @@ layout: post
 category: misc
 tags: [blog, testing]
 logo: globe
+summary: "Test: 3, 2, 1... All systems active!"
 ---
 
 Just a simple entry to make sure everything works.
