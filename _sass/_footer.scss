@@ -61,19 +61,28 @@ html, body {
 
     height: 1.6em;
     line-height: 0;
-    i {
-      font-size: 1.5em;
-      color: $footer-link-color;
+
+    a:focus,:hover * {
+      color: $footer-hover-color;
     }
 
-    a span {
-      color: $footer-link-color;
-      font-size: 0em;
-    }
+    a {
+      text-decoration: none;
 
-    @include media($large_screen) {
-      a span {
+      i {
         font-size: 1.5em;
+        color: $footer-link-color;
+      }
+
+      span {
+        font-size: 0em;
+      }
+
+      @include media($large_screen) {
+        span {
+          color: $footer-link-color;
+          font-size: 1.25em;
+        }
       }
     }
   }
