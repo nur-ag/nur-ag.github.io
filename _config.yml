@@ -32,6 +32,7 @@ disqus_shortname: 'nurwtf'
 # Jekyll configuration
 permalink: /:year/:month/:day/:title/
 paginate: 4
+future: true
 
 # Markdown
 highlighter: rouge
@@ -44,7 +45,7 @@ kramdown:
   toc_levels: 1..6
 
 # Gems
-gems: ['jekyll-paginate']
+plugins: ['jekyll-paginate', 'jekyll-gist']
 
 # Exclude
 exclude: ['README.md']
