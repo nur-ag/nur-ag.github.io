@@ -1,5 +1,5 @@
 ---
-title: The Tao of teaching
+title: The Tao of Teaching
 layout: post
 category: doing
 tags: [programming,teaching,nlp,neural-networks,deep-learning]
