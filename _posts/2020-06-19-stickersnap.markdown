@@ -22,9 +22,11 @@ Building StickerSnap has been a lot of fun. I have had to go from a computer vis
 
 * There are **[newer object segmentation architectures](https://twitter.com/cyrildiagne/status/1257572501753864192?s=20)** that could make the output stickers even sharper and more accurate.
 
+* BASNet is a great model, but it still gets it wrong at times. As **the most reliable way of improving any ML system is more data**, users should have a small editor to correct faulty segmentations. These user corrections would then be saved and used to **improve the model with active learning**! Even just the editor would give value to the users, as they **would not need to hop on another app to fix the images**!
+
 * **I have only scratched the surface of the CI/CD setup.** A robust way of dealing with the project would involve keeping the **[Jenkins configuration](https://medium.com/slalom-build/automatically-generating-jenkins-jobs-d30d4b0a2b49) in the repo, to allow for migration and versioning**. 
 
-* **Tests are not enough.** The front-end should have tests. The back-end should have tests. The interaction between the two should be tested! 
+* **Current tests are not enough.** The front-end should have tests. The back-end should have tests. The interaction between the two should be tested! 
 
 * The app is running through HTTP rather than HTTPS! **This means your images are being sent 'in the clear'**, which concerns me quite a bit as a privacy nut. Although S3 buckets are HTTP only, it is possible to [set up an HTTPS front](https://levelup.gitconnected.com/deploying-vue-js-to-aws-with-https-and-a-custom-domain-name-3ae1f79fe188). I originally intended to do this, but I had forgotten that **mixed cross-origin requests would get blocked** as the Docker image runs HTTP. Nevertheless, it would be possible to change that by **using [NGINX and LetsEncrypt](https://github.com/smallwat3r/docker-nginx-gunicorn-flask-letsencrypt), and have everything beautiful, HTTPS and nice.** 
 
