@@ -199,6 +199,9 @@ div.post-title {
     vertical-align:top;
     font-size:3em;
     color: $theme-color;
+    @media (max-width: 676px) {
+      display:none;
+    }
   }
   div.title {
     display:inline-block;
@@ -256,7 +259,16 @@ div.post-title {
 }
 
 .nav {
+  display: flex;
+}
+
+.nav .button-container {
+  width: 50%;
   text-align: center;
+}
+
+.nav .fa-stack {
+  height: 0.75em;
 }
 
 .nav > a:hover, a:focus {

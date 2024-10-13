@@ -1,0 +1,40 @@
+div {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.hidden {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 0px;
+    max-width: 0px;
+}
+
+div canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    image-rendering: crisp-edges;
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: pixelated;
+    image-rendering: optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}

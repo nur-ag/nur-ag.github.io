@@ -47,7 +47,8 @@
     <link rel="stylesheet" href="{{ site.url }}/css/trio.css">
 
     <!-- Social buttons -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Set the canonical URL for search engines -->
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
@@ -63,23 +64,7 @@
     <link rel="manifest" href="/manifest.json">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#900000">
     <meta name="theme-color" content="#ffffff">
-    <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [['$','$'], ['\\(','\\)']],
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] // removed 'code' entry
-        }
-    });
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax(), i;
-        for(i = 0; i < all.length; i += 1) {
-            all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-    });
-    </script>
-    <script type="text/javascript" async
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <!-- Header: end -->
 
@@ -103,53 +88,47 @@
 <!-- Footer: begin -->
 <footer class="stickyfooter" role="contentinfo">
     <div class="footer-logo">
-        <a href="{{ site.url }}"><i class="fa fa-{{ site.fort_awesome_icon }}"></i></a>
+        <a href="{{ site.url }}"><i class="fa-solid fa-{{ site.fort_awesome_icon }}"></i></a>
     </div>
 
     <div class="footer-info">
-        <a href="{{ site.url }}/contact/"><i class="fa fa-comment-o"></i><span> Contact</span></a>
-        <a href="{{ site.url }}/about/"><i class="fa fa-info-circle"></i><span> About</span></a>
-        <a href="{{ site.url }}/search/"><i class="fa fa-search"></i><span> Search</span></a>
+        <a href="{{ site.url }}/contact/"><i class="fa-solid fa-comment"></i><span> Contact</span></a>
+        <a href="{{ site.url }}/about/"><i class="fa-solid fa-info-circle"></i><span> About</span></a>
+        <a href="{{ site.url }}/search/"><i class="fa-solid fa-search"></i><span> Search</span></a>
     </div>
 
     <div class="footer-secondary-links">
       <ul class="footer-social">
         <li><a href="{{ site.url }}/feed.xml">
-                <i class="fa fa-rss-square"></i>
+                <i class="fa-solid fa-rss-square"></i>
         </a></li>
         {% if site.owner.github %}
             <li><a href="https://github.com/{{ site.owner.github }}">
-                <i class="fa fa-github-square"></i>
+                <i class="fa-brands fa-github-square"></i>
             </a></li>
         {% endif %}
 
         {% if site.owner.twitter %}
             <li><a href="https://twitter.com/{{ site.owner.twitter }}">
-                <i class="fa fa-twitter-square"></i>
+                <i class="fa-brands fa-twitter-square"></i>
             </a></li>
         {% endif %}
 
         {% if site.owner.linkedin %}
             <li><a href="https://linkedin.com/in/{{ site.owner.linkedin }}">
-                <i class="fa fa-linkedin-square"></i>
-            </a></li>
-        {% endif %}
-
-        {% if site.owner.google_plus %}
-            <li><a href="https://plus.google.com/+{{ site.owner.google_plus }}">
-                <i class="fa fa-google-plus-square"></i>
+                <i class="fa-brands fa-linkedin"></i>
             </a></li>
         {% endif %}
 
         {% if site.owner.facebook %}
             <li><a href="https://facebook.com/{{ site.owner.facebook }}">
-                <i class="fa fa-facebook-square"></i>
+                <i class="fa-brands fa-facebook-square"></i>
             </a></li>
         {% endif %}
 
         {% if site.owner.youtube %}
             <li><a href="https://github.com/{{ site.owner.youtube }}">
-                <i class="fa fa-youtube-square"></i>
+                <i class="fa-brands fa-youtube-square"></i>
             </a></li>
         {% endif %}
       </ul>

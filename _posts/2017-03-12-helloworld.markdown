@@ -9,13 +9,15 @@ summary: "Test: 3, 2, 1... All systems active!"
 
 Just a simple entry to make sure everything works.
 
-[Here](http://dropthevertz.co.nf/raster) you can see software rasterizer I wrote in Scala.js. It's not very fast, probably. I didn't clip the triangles so it lags (badly!) when they are behind your eyes.
+[Here](/projects/renderer/) you can see software rasterizer I wrote in Scala.js. It's not 
+very fast, probably. I didn't clip the triangles so it lags (badly!) when they are behind your eyes.
 
 ---------
 
 Disregard the following lists simply because you're busy:
 
-* Once upon a time Zeno went to $\sum\limits_{i=0}^{\infty} \frac{1}{2^i}$ and then it was twice upon a time
+* Once upon a time Zeno went to $$\sum\limits_{i=0}^{\infty} \frac{1}{2^i}$$ and then it was 
+twice upon a time
 * Spanish is nice because life's a dream
 * I can't use long words
 

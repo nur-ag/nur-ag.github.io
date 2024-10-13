@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>BoomEngine - A scala.js 3D software renderer</title>
+    <link rel="stylesheet" href="./boom.css"/>
+</head>
+<body>
+    <div>
+        <canvas id="canvas" width="256" height="160">Your browser doesn't support the HTML5 canvas element... BOOM!</canvas>
+        <canvas id="loader" class="hidden" width="0" height="0">TextureLoader canvas can't be loaded either!</canvas>
+    </div>
+    <script type="text/javascript" src="./softwarerenderer-opt.js"></script>
+    <script type="text/javascript">var boom = new boom.API(document);</script>
+</body>
+</html>

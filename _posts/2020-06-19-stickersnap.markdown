@@ -3,7 +3,7 @@ title: StickerSnap — The AI Sticker Maker
 layout: post
 category: doing
 tags: [computer-vision, stickers, whatsapp, telegram, flask, web-app]
-logo: sticky-note-o
+logo: sticky-note
 ---
 
 These last days I have been working on a little side project of mine: [StickerSnap](http://stickersnap.nur.systems). **It solves a crucial problem**: getting rid of the background in your pictures so that you can create the best stickers for social apps like WhatsApp or Telegram!

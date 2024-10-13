@@ -50,69 +50,67 @@ layout: default
 
 <hr/>
 <div class="nav">
-    {% if page.previous.url %}
-    <a href="{{page.previous.url}}" alt="Older Post">
-        <span class="fa-stack fa-2x">
-            <i class="fa fa-circle-thin fa-stack-2x"></i>
-            <i class="fa fa-angle-double-left fa-stack-1x"></i>
+    <div class="button-container">
+        {% if page.previous.url %}
+        <a href="{{page.previous.url}}" alt="Older Post">
+            <span class="fa-stack fa-4x">
+                <i class="fa-regular fa-circle fa-stack-1x"></i>
+                <i class="fa-solid fa-caret-left fa-stack-1x"></i>
+            </span>
+        </a>
+        {% else %}
+        <span class="disabled">
+            <span class="fa-stack fa-4x">
+                <i class="fa-regular fa-circle fa-stack-1x"></i>
+                <i class="fa-solid fa-caret-left fa-stack-1x"></i>
+            </span>
         </span>
-    </a>
-    {% else %}
-    <span class="disabled">
-        <span class="fa-stack fa-2x">
-            <i class="fa fa-circle-thin fa-stack-2x"></i>
-            <i class="fa fa-angle-double-left fa-stack-1x"></i>
+        {% endif %}
+    </div>
+    <div class="button-container">
+        {% if page.next.url %}
+        <a href="{{page.next.url}}" alt="Newer Post">
+            <span class="fa-stack fa-4x">
+                <i class="fa-regular fa-circle fa-stack-1x"></i>
+                <i class="fa-solid fa-caret-right fa-stack-1x"></i>
+            </span>
+        </a>
+        {% else %}
+        <span class="disabled">
+            <span class="fa-stack fa-4x">
+                <i class="fa-regular fa-circle fa-stack-1x"></i>
+                <i class="fa-solid fa-caret-right fa-stack-1x"></i>
+            </span>
         </span>
-    </span>
-    {% endif %}
-    {% if page.next.url %}
-    <a href="{{page.next.url}}" alt="Newer Post">
-        <span class="fa-stack fa-2x">
-            <i class="fa fa-circle-thin fa-stack-2x"></i>
-            <i class="fa fa-angle-double-right fa-stack-1x"></i>
-        </span>
-    </a>
-    {% else %}
-    <span class="disabled">
-        <span class="fa-stack fa-2x">
-            <i class="fa fa-circle-thin fa-stack-2x"></i>
-            <i class="fa fa-angle-double-right fa-stack-1x"></i>
-        </span>
-    </span>
-    {% endif %}
+        {% endif %}
+    </div>
 </div>
 <hr/>
 <div class="sharing">
 <!-- Make an animated slide out drawer later -->
     <ul class="inline">
-        <li><i class="fa fa-share-square-o fa-2x"></i></li>
+        <li><i class="fa-solid fa-share-from-square fa-2x"></i></li>
         {% if site.sharing.twitter %}
         <li><a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Twitter">
-                <i class="fa fa-twitter-square fa-2x"></i>
+                <i class="fa-brands fa-twitter fa-2x"></i>
         </a></li>
         {% endif %}
 
         {% if site.sharing.linkedin %}
         <li><a href="http://www.linkedin.com/shareArticle?url={{ site.url }}{{ page.url }}&title={{ page.title }}" rel="nofollow" target="_blank" title="Share on LinkedIn">
-                <i class="fa fa-linkedin-square fa-2x"></i>
+                <i class="fa-brands fa-linkedin fa-2x"></i>
         </a></li>
         {% endif %}
 
         {% if site.sharing.facebook %}
         <li><a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">
-                <i class="fa fa-facebook-square fa-2x"></i>
-        </a></li>
-        {% endif %}
-
-        {% if site.sharing.google_plus %}
-        <li><a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+">
-                <i class="fa fa-google-plus-square fa-2x"></i>
+                <i class="fa-brands fa-facebook fa-2x"></i>
         </a></li>
         {% endif %}
 
         {% if site.sharing.reddit %}
         <li><a href="http://reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title }}" rel="nofollow" target="_blank" title="Share on Reddit">
-                <i class="fa fa-reddit-square fa-2x"></i>
+                <i class="fa-brands fa-reddit fa-2x"></i>
         </a></li>
         {% endif %}
     </ul>
